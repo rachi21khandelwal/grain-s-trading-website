@@ -7,13 +7,7 @@ const newRouter = function (collection) {
 
   const router = express.Router();
   
-  // Function for catching errors, this is to keep the code DRY
-//   const errorCatcher = function(inputError, res) {
-//     console.error(inputError);
-//     res.status(500).json({ status: 500, error: inputError.toString() });
 
-//   };
-  
   
   // Route for getting all staff data
   router.get('/', ( req, res) => {
@@ -46,16 +40,7 @@ const newRouter = function (collection) {
   });
 
 
-  // Route for creating new staff
-//   router.post('/', (req, res) => {
-//     const newData = req.body;
-//     collection
-//     .insertOne(newData)
-//     .then((result) => {
-//       res.json(result.ops[0]);
-//     })
-//     // .catch((err) => errorCatcher(err));
-//   });
+ 
 
 router.post('/', (req, res) => {
     const newData = req.body;
@@ -70,7 +55,7 @@ router.post('/', (req, res) => {
       });
   });
   
-  // Route for updating specific staff
+
  router.put('/:id', (req, res) => {
     const itemId = req.params.id;
     const updatedItem = req.body;
