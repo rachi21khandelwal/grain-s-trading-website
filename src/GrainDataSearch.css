@@ -1,0 +1,76 @@
+#search-bar1 {
+    align-items: center;
+    width: 100%;
+    height: 300px; /* Adjust width as needed */
+    margin: 0 auto; /* Center alignment */
+margin-top: -10px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    
+}
+
+#search-bar1 input {
+    width: 90%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+   margin-top: 50px;
+    margin-bottom: 60px;
+    cursor: pointer;
+   margin-left: 30px;
+}
+
+#search-bar1 input:focus {
+    border-color: #007bff; /* Change color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow on focus */
+}
+
+#search-bar1 button {
+    padding: 8px 15px;
+    margin-left:50%; /* Adjust spacing between input and button */
+    background-color: #1e3247;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+#search-bar1 button:hover {
+    background-color: #cfdded;
+    color: #1e3247;; /* Change color on hover */
+}
+.output-container {
+   
+    align-items: center;
+    margin:0px auto;
+     padding: 30px;
+     border-radius: 10px;
+        
+     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+      
+      
+    width: 350px; /* Adjust box width */
+    background-color: #f9f9f9;
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+     
+}
+      
+
+
+.output {
+    margin-top: 20px; /* Adjust spacing from the top */
+    padding: 8px;
+ 
+    border-radius: 5px;
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Adjust font weight */
+    color: #322f2f; /* Adjust text color */
+    text-align: center;
+}
+
+.show{
+    margin-left: 50pc;
+}

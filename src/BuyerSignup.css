@@ -1,0 +1,71 @@
+
+/* Signup.css */
+.containersignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .signup-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .input-group-signup {
+    margin-bottom: 10px;
+  }
+  
+  .input-group-signup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group-signup input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .error-msg {
+    color: #d32f2f;
+    font-size: 14px;
+  }
+  
+  .button-signup {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #1e3247;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #1e3247; 
+  }
+  
+  .button-signup:hover {
+    background-color: #cfdded;
+    color: #1e3247;
+  }
+  
+  
+  .imglogo1{
+    border-radius: 50%;
+    width: 50%;
+    height:50%;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  .logoh21{
+    margin-left: 75px;
+  }

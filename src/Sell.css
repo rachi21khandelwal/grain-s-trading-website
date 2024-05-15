@@ -1,0 +1,172 @@
+.btnp{
+    margin-top: 30px;
+   float: right;
+    height: 47px;
+  border-style: none;
+    width: 90px;
+    font-size: 15px;
+   background-color:  #040d33;
+   color: white;
+  }
+  .btnp:hover{
+    background-color:transparent;
+    color: #040d33;
+    cursor:pointer;
+  }
+  .btnp2{
+    float: right;
+    margin-top: 300px;
+    margin-left: 0px;
+    height: 47px;
+  border-style: none;
+    width: 90px;
+    font-size: 15px;
+   background-color:  #040d33;
+   color: white;
+  }
+  .btnp2:hover:hover{
+    background-color:transparent;
+    color: #040d33;
+    cursor:pointer;
+  }
+ 
+.floating-label-group {
+	position: relative;
+	margin-top: 55px;
+	margin-bottom: 25px;
+
+  
+  
+}
+	.floating-label {
+		font-size: 15px;
+    background-size: 100% 100%;
+   
+		color: #cccccc;
+		position: absolute;
+		pointer-events: none;
+		top: 5px;
+		left: 40px;
+		transition: all 0.1s ease;
+    color: #575353;
+	}
+  .form-control{
+    width: 390px;
+    height: 40px;
+    border-style: none;
+    border-radius: 4px;
+  }
+
+	input:focus ~ .floating-label,
+	input:not(:focus):valid ~ .floating-label {
+		top: -20px;
+		bottom: 0px;
+		left: 0px;
+		font-size: 15px;
+		opacity: 1;
+		color: #404040;
+   
+   
+	}
+
+.iconss{
+  float: left;
+  width:25px;
+  height: 30px;
+  margin-right: 0px;
+ 
+ 
+  background-size: 100% 100%;
+}
+
+.row {
+  height: 500px;
+  width: 550px;
+	margin-top: 45px;
+ 
+  padding: 20px;
+  border: 1px solid black;
+}
+/*upload*/
+.row1 {
+  float: left;
+  height: 500px;
+  width: 450px;
+	margin-top: 50px;
+  margin-left: 359px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.floating-label-group1 {
+  float: left;
+	position: relative;
+  margin: 30px;
+	
+	
+
+  
+  
+}
+	.floating-label1 {
+		font-size: 15px;
+    background-size: 100% 100%;
+   
+		color: #cccccc;
+		position: absolute;
+		pointer-events: none;
+		top: 2px;
+		left: 20px;
+		transition: all 0.1s ease;
+    color: #575353;
+	}
+  .form-control1{
+    width: 80px;
+    height: 30px;
+    border-style: none;
+    border-radius: 4px;
+  }
+
+	input:focus ~ .floating-label1,
+	input:not(:focus):valid ~ .floating-label1 {
+		top: -20px;
+		bottom: 0px;
+		left: 0px;
+		font-size: 15px;
+		opacity: 1;
+		color: #404040;
+   
+   
+	}
+
+
+
+    .iconss{
+        float: left;
+        width:25px;
+        height: 30px;
+        margin-right: 0px;
+       
+       
+        background-size: 100% 100%;
+      }
+
+      
+      input[type="file" i] {
+        appearance: none;
+        height: 190px;
+        width: 300px;
+      
+        cursor: default;
+        align-items: baseline;
+        color: inherit;
+        margin-top:20px ;
+        text-overflow: ellipsis;
+        white-space: pre;
+        text-align: start !important;
+        padding: initial;
+        border: initial;
+        overflow: hidden !important;
+    }
+   .up2{
+    background-color: goldenrod;
+   }

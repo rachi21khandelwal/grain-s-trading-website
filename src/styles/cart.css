@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 60%;
+    margin: auto;
+}
+.cart_box img{
+    width: 50px;
+    height: 50px;
+}
+.cart_img{
+    display: flex;
+    width: 400px;
+}
+.cart_img p {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+   margin-left: 1px;
+}
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px;
+    background-color: rgb(207, 235, 235);
+    border-color: aliceblue;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: rgb(117, 134, 141);
+    border-radius: 5px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span{
+    background-color: rgb(216, 244, 216);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 80px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total span:nth-child(1){
+    font-size: 2rem;
+    color: rgb(38, 40, 41);
+   font-size: 27px;
+   margin-top: 15px;
+    letter-spacing: 2px;
+}
+.total span:nth-child(2){
+    font-size: 2rem;
+    color: rgb(76, 71, 74);
+    font-weight: bold;
+    font-size: 27px;
+   margin-top: 15px;
+}
+
+
+
+.cart1{
+    
+    position:absolute;
+   top:15%;
+margin-left: 50px;
+
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+body{
+    background-color: white;
+}
+.cart2{
+float: right;
+color: blue;
+margin-right: 50px;
+margin-top: 70px;
+}
+.cart3{
+    margin-left: 50px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+  
+    height: 150px;
+    width: 88%;
+}
+.cart4{
+    margin-top: 20px;
+    width: 30%;
+    height: 80%;
+   
+    
+}
+.cart5{
+    width: 100%;
+    height: 100%;
+}
+.cart6{
+width: 35%;
+margin-left: 20px;
+font-size: 25px;
+padding: 45px;
+font-weight: 500;
+
+
+}
+.cart7{
+    color: blue;
+    font-size: 15px;
+   
+    margin-top: 10px;
+    font-weight: 200;
+}
+.cart8{
+  
+    float: right;
+    margin-top: 50px;
+    width: max-content;
+    height: max-content;
+    font-size: 20px;
+    font-weight: 400;
+    width: 30%;
+    color: rgb(67, 66, 66);
+}
+.cart9{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+   
+    height: 40px;
+    width: 80%;
+    margin-left: 70px;
+}
+.cart10{
+    height: 100%;
+    width: 100%;
+}
+.cart11{
+   margin-left: 10px;
+    width: 20%;
+    height:45px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-style: none;
+    background-color: #040d33;
+    color:white
+}
+.cart11:hover{
+    color:#040d33;
+    background-color: transparent;
+
+
+}
+.cart12{
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.cart13{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 85%;
+    margin-left: 50px;
+
+}
+
+.cart14{
+    width: 30%;
+    height: 100%;
+   
+    color: rgb(129, 124, 124);
+}
+.cart19{
+    color: black;
+    font-size: 20px;
+}
+
+.cart15{
+    width: 40%;
+ margin-left: 180px;
+    height: 100%;
+   
+    color: rgb(161, 159, 159);}
+.cart16{
+ position: absolute;
+ top:74%;
+
+color:rgb(46, 45, 45);
+
+    margin-left: 150px;
+}
+.cart17{
+    position: absolute;
+    top:76%;
+    margin-right: 40px;
+       margin-left: 70px; 
+       
+}
+.cart18{
+    float: right;
+}
+.cart20{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.p1{
+  position:absolute;
+  top:74%;
+}
+.p22{
+position: absolute;
+top:76%;
+}
+input[type="tel" i]{
+    width: 100%;
+    height: 45px;
+    background-color: #f5f5f5;
+    border-style: none;
+}
+
+
+
+
+/*Display cart*/
+
+.carta{
+    width: 40px;
+    height: 50px;
+    
+    position: absolute;
+    top:18% ;
+   margin-left:387px;
+  }
+  .cartb{
+    width: 100%;
+    height: 100%;
+   color:  white;
+  }
+  .cartc{
+    margin-top: 35px;
+   margin-left: 310px;
+
+  }
+ 

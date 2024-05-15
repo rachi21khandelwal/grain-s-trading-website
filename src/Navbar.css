@@ -1,0 +1,70 @@
+.navbar{
+height: 50px;
+width: 90px;
+position: absolute;
+top:10px;
+left: 80%;
+background-color: transparent;
+
+}
+.navbar1{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top:10px;
+    left: 85%;
+    background-color: transparent;
+    
+    }
+    .navbar2{
+        height: 50px;
+        width: 100px;
+        position: absolute;
+        top:10px;
+        left: 90%;
+        background-color: transparent;
+        
+        }
+        .navbar3{
+            height: 50px;
+            width: 100px;
+            position: absolute;
+            top:-23px;
+            left: 87%;
+            background-color: transparent;
+            
+            }
+
+.add{
+    
+    width: 60%;
+    height: 70%;
+    background-color: none;
+}
+
+.add:hover{
+    cursor: pointer;
+    color: white;
+}
+.bt{
+   
+    width: 60%;
+    height: 70%;
+    background-color: transparent;
+    border-style: none;
+}
+.bt1{
+   
+    width: 70%;
+    height: 70%;
+    background-color: transparent;
+    border-style: none;
+}
+.log{
+  margin-top: -2px;
+    font-size: 15px;
+}
+.log2{
+    margin-top: -2px;
+    font-size: 15px;
+}

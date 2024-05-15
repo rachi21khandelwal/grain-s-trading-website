@@ -1,0 +1,122 @@
+.feedback-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+     border: 1px solid #ccc;
+     margin-top: 90px;  
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #labelfeed {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #buttonfeed {
+    padding: 10px 20px;
+    background-color: #1e3247;
+    color: #fff;
+  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 160px;
+    font: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #buttonfeed:hover {
+    background-color: #cfdded;
+    color: #1e3247;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 25px;
+    margin-right: 10px;
+  }
+  
+  .checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkbox-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  
+  .checkbox-label input:checked ~ .checkbox-custom {
+    background-color: #2196f3;
+  }
+  
+  .checkbox-label input:checked ~ .checkbox-custom:after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+   #container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #container div {
+    margin-bottom: 10px;
+  }
+  
+  #textarea {
+    margin-top: 5px;
+    resize: vertical;
+  }
+  
+  #label {
+    margin-left: 5px;
+  }
+  .logoh23{
+    margin-left:90px;
+    margin-top: 20px;
+  }
+  .imglogo23{
+    border-radius: 50%;
+    width: 50%;
+    height:50%;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  #addimg23{
+    margin-left: 20px;
+  }
